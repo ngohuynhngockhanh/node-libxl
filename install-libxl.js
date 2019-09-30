@@ -54,7 +54,7 @@ var download = function(callback) {
     }
 
     function getArchiveName() {
-        return util.format('libxl-%s-latest.%s', getPlaform(), isWin ? 'zip' : 'tar.gz');
+        return util.format('libxl-%s-3.8.0.%s', getPlaform(), isWin ? 'zip' : 'tar.gz');
     }
 
     function downloadToFile(filename, callback) {
